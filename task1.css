@@ -1,0 +1,155 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+    background-image: linear-gradient(120deg,rgb(214, 180, 221) 30%,rgb(239, 245, 163) 40%,rgb(178, 223, 206)30%);
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.sub-wrapper{
+    display: flex;
+    width: 100%;
+}
+.sub-wrapper:nth-child(1){
+    height: 30%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    justify-content: space-evenly;
+}
+.top-image-wrapper{
+    width: 30%;
+    height: 95%;
+}
+#top-image{
+    width: 100%;
+    height:100%;
+}
+#top-image:hover{
+    cursor: pointer;
+}
+.sub-wrapper:nth-child(2){
+    height: 40%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.review-read-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100%;
+    width: 20%;
+    padding-bottom: 1%;
+}
+.review-text-box{
+    box-sizing: border-box;
+    height: 30%;
+    margin-bottom: 5%;
+}
+.read-more-box-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 80%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    transition: width 2s,background-color,ease-in-out;
+}
+.review-text{
+    text-align: center;
+}
+.review-text-logo{
+    float: right;
+}
+.read-more-icon:hover{
+    cursor: pointer;
+}
+.sub-wrapper:nth-child(3){
+    background-color: white;
+    height: 9%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.sub-wrapper:nth-child(4){
+    height: 21%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+#Testimonials{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.read-more-box-button{
+    color: white;
+    background-color: blue;
+}
+.read-more-box-button:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: greenyellow;
+}
+.download-now-button{
+    color: white;
+    background-color: rgb(156, 94, 13);
+}
+.download-now-button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: orange;
+}
+.profile-pic{
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+    margin: 2% 2% 2% 2%;
+}
+.profile-box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10%;
+    margin: 1%;
+}
+.sub-wrapper:nth-child(4)::before{
+    background-color: blue;
+}
+.profile-box{
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-bubble{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1% 3% 1% 3%;
+}
+.profile-name{
+    color: blue;
+    float: right;
+}
+.profile-name:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+}
+.profile-pic:hover{
+    cursor: pointer;
+}
+.read-more-box-item:hover{
+    background-color: cornsilk;
+    width: 90%;
+}
